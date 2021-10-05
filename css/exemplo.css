@@ -1,0 +1,61 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html, body {
+    height: 100%;
+}
+
+body {
+    font-family: 'Noto Sans Display', sans-serif;
+    color: white;
+    background: rgb(197,50,50);
+    background: radial-gradient(circle, rgba(197,50,50,1) 0%, rgba(24,38,115,1) 100%);
+}
+
+h1 {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 100;
+    font-size: 24px;
+    margin-bottom: 50px;
+    margin-top: 50px;
+    text-align: center;
+}
+
+.exemplo {
+    width: 210px;
+    border-radius: 25%;
+    border: 3px solid black;
+    box-shadow: 0 0 20px black;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.voltar {
+    list-style: none;
+}
+
+.voltar li {
+    margin: 10px 20px;
+}
+
+.voltar li a {
+    background-color: #100d3f;
+    padding: 15px 20px;
+    font-weight: bold;
+    display: block;
+    border-radius: 11px;
+    text-decoration: none;
+    color: rgb(197,50,50);
+    margin-top: 45px;
+}
+
+.footer {
+    text-align: center;
+    margin-top: 200px;
+    color: rgba(255, 255, 255, 0.295);
+    background-color: rgba(0, 0, 0, 0.24);
+    padding: 3px 0;
+}
