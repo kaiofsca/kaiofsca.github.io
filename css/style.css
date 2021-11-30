@@ -10,27 +10,29 @@ html, body {
 body {
     font-family: 'Noto Sans Display', sans-serif;
     color: white;
-    background: rgb(197,50,50);
-    background: radial-gradient(circle, rgba(197,50,50,1) 0%, rgba(24,38,115,1) 100%);
+    background: #182673;
 }
 
 .avatar {
-    width: 115px;
+    width: 150px;
     border-radius: 100%;
     border: 3px solid black;
     box-shadow: 0 0 20px black;
+    margin-top: 30px;
 }
 
 h1 {
-    font-family: 'Raleway', sans-serif;
+    font-family: 'Fira Sans', sans-serif;
     font-weight: 100;
     font-size: 24px;
-    margin-bottom: 2px;
+    margin-bottom: -10px;
     margin-top: 8px;
 }
 
 h2 {
-    font-size: 16px;
+    font-family: 'Covered By Your Grace', cursive;
+    font-size: 20px;
+    color: #bebe00;
 }
 
 .profile {
@@ -51,31 +53,34 @@ h2 {
 
 .links-list {
     list-style: none;
+    text-align: center;
 }
 
 .links-list li {
     margin: 10px 20px;
 }
 
-.links-list a {
+.links-list li a {
     background-color: #100d3f;
-    padding: 15px 20px;
+    padding: 20px 20px;
     font-weight: bold;
     display: block;
-    border-radius: 11px;
+    border-radius: 50px;
     text-decoration: none;
-    color: rgb(197,50,50);
+    color: #bebe00;
+    border: 2px solid #bebe00;
 }
 
-.links-list li a span {
-    color: gray;
-    display: block;
-    margin-top: 10px;
+.links-list li a:hover {
+    background-color: #bebe00;
+    color: #182673;
 }
+
+
 
 .footer {
     text-align: center;
-    margin-top: 200px;
+    margin-top: 300px;
     color: rgba(255, 255, 255, 0.295);
     background-color: rgba(0, 0, 0, 0.24);
     padding: 3px 0;
