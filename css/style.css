@@ -4,7 +4,7 @@
 }
 
 html, body {
-    height: 100%;
+    min-height: 100%;
 }
 
 body {
@@ -27,6 +27,7 @@ h1 {
     font-size: 24px;
     margin-bottom: -10px;
     margin-top: 8px;
+    
 }
 
 h2 {
@@ -80,10 +81,13 @@ h2 {
 
 .footer {
     text-align: center;
-    margin-top: 300px;
     color: rgba(255, 255, 255, 0.295);
     background-color: rgba(0, 0, 0, 0.24);
     padding: 3px 0;
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+    line-height: 100%;
 }
 
 
