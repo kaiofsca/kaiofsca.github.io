@@ -1,0 +1,78 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+html, body {
+  min-height: 100%;
+}
+
+body {
+  text-align: center;
+  font-family: 'Noto Sans Display', sans-serif;
+  background-color: black;
+  color: white;
+  position: relative;
+}
+
+body .profile .avatar {
+  max-width: 100%;
+  height: auto;
+  margin: -50px;
+}
+
+body .profile h1 {
+  font-family: 'Fira Sans', sans-serif;
+  font-weight: 100;
+  font-size: 28px;
+  margin-bottom: 20px;
+  color: #4cf874;
+}
+
+body .frases {
+  font-style: italic;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+body .frases p {
+  padding: 10px;
+}
+
+body .frases p:last-child {
+  margin-bottom: 20px;
+}
+
+body button {
+  border: none;
+  border-radius: 10px;
+  padding: 8px 18px;
+  color: black;
+  margin-bottom: 50px;
+  background: #c987e2;
+  background: -webkit-gradient(linear, left top, left bottom, from(#c987e2), to(#4cf874));
+  background: linear-gradient(180deg, #c987e2 0%, #4cf874 100%);
+}
+
+body button:hover {
+  border: 4px solid blueviolet;
+}
+
+body .footer {
+  width: 100%;
+  height: 50px;
+  margin-top: 115px;
+  bottom: 0;
+  font-size: 12px;
+  color: rgba(255, 255, 255, 0.158);
+  background-color: rgba(8, 4, 4, 0.24);
+}
+/*# sourceMappingURL=treinamento.css.map */
